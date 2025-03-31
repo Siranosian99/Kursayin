@@ -4,7 +4,7 @@ import 'dart:typed_data';
 import 'dart:math';
 import 'package:twofish/twofish.dart';
 
-void main() asynccccccc {
+void main() async {
   // Generate RSA key pair
   var random = new Random.secure();
   var key = new RSAKeyGenerator().generate(random, 2048);
